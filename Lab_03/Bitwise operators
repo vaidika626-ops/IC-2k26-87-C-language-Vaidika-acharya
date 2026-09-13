@@ -1,0 +1,19 @@
+//Bitwise operators
+#include<stdio.h>
+int main()
+{
+    int x;
+    int y;
+    printf("Enter the value of x: ");
+    scanf("%d",&x);
+    printf("Enter the value of y: ");
+    scanf("%d",&y);
+    printf("Bitwise AND of x and y is: %d\n", x & y);
+    printf("Bitwise OR of x and y is: %d\n", x | y);
+    printf("Bitwise XOR of x and y is: %d\n", x ^ y);
+    printf("Bitwise NOT of x is: %d\n", ~x);
+    printf("Bitwise NOT of y is: %d\n", ~y);
+    printf("Bitwise left shift of x is: %d\n", x << y);
+    printf("Bitwise right shift of x is: %d\n", x >> y);
+    return 0;
+}
