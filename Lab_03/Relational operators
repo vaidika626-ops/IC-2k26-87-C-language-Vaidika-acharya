@@ -1,0 +1,14 @@
+#include<stdio.h>//RELATIONAL OPERATORS PROGRAMME
+int main()
+{
+    int a=20;
+    int b=40;
+    printf("%d\n",a>b);
+    printf("%d\n",a<b);
+    printf("%d\n",a>=b);
+    printf("%d\n",a<=b);
+    printf("%d\n",a==b);
+    printf("%d\n",a!=b);
+    return 0;
+    
+}
