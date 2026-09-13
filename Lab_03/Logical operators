@@ -1,0 +1,15 @@
+//Logical operators
+#include<stdio.h>
+int main()
+{
+    int x;
+    int y;
+    printf("Enter x and y \n");
+    scanf("%d",&x);
+    scanf("%d",&y);
+    printf("%d\n",x>y&&y<=x);
+    printf("%d\n",x>=y||y==x);
+    printf("%d\n",!x);
+
+    return 0;
+}
