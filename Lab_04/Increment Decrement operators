@@ -1,0 +1,15 @@
+//Increment decrement operators
+#include<stdio.h>
+int main()
+{
+    int a;
+    int b;
+    printf("Enter a and b \n");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    printf("%d\n",(a++)+(b++));
+    printf("%d\n",(++a)+(++b));
+    printf("%d\n",(b--)+(a--));
+    printf("%d\n",(--b)+(--a));
+    return 0;
+}
