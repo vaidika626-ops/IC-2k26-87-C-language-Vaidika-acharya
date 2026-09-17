@@ -1,0 +1,10 @@
+//Q.1
+#include<stdio.h>
+int main()
+{
+int a=10;
+printf("%d",A);
+return 0;
+}
+//In programme error in 6th line because c is case sensitive language so
+//printf("%d",a);use
