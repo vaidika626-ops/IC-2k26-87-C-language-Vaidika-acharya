@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int 1number=10;
+printf("%d",1number);
+return 0;
+}
+//Error is Variable decalaration because c is case sensitive langauage so variable name do not start with digits.
+// int number=10 is use
