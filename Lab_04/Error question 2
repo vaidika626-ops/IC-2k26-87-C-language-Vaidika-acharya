@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+printf("%d",a);
+return 0
+}
+//Error in 5th line return 0 
+//return 0; use
