@@ -1,1 +1,17 @@
-
+#include<stdio.h>
+int main()
+{
+    int a;
+    int b;
+    printf("Enter a");
+    scanf("%d",&a);
+    printf("Enter b");
+    scanf("%d",&b);
+    printf("sum of %d\n",a+b);
+    printf("difference of %d\n",a-b);
+    printf("product of %d\n",a*b);
+    printf("quotient of %d",a/b);//Not handling divide by zero case and decimal values.
+    printf("modulus of %d\n",a%b);
+        return 0;
+}
+//Simple Arithmetic program to perform addition, subtraction, multiplication, division and modulus of two numbers.
