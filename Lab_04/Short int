@@ -1,0 +1,7 @@
+#include<stdio.h>   
+int main()
+{
+short int i=32768;
+printf("%d",i);
+return 0;
+}
