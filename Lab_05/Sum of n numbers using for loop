@@ -1,0 +1,14 @@
+#include<stdio.h>//SUM OF n numbers using for loop.
+int main()
+{
+    int n, sum=0;
+    printf("Enter a range from 0 to n: ");
+    scanf("%d",&n);
+    for(int i=0;i<=n;i++)
+    {
+        sum=sum+i;
+    
+    }
+    printf("Sum of numbers from 0 to %d is : %d\n",n,sum);
+    return 0;
+}
