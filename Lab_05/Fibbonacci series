@@ -1,0 +1,17 @@
+#include<stdio.h>//FIBBONACCI SERIES.
+int main()
+{
+    int n,num1=0,num2=1,nextnum;
+    printf("Enter the number of fibbonacci series: ");
+    scanf("%d",&n);
+    printf("Fibbonacci series: ");
+    for(int i=0;i<=n;++i)
+    {
+        printf("%d\n",num1);
+        nextnum=num1+num2;
+        num1=num2;
+        num2=nextnum;
+    }
+    printf("Fibbonacci series.%d\n",n);
+    return 0;
+}
