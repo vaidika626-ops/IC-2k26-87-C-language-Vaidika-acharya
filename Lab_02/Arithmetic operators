@@ -3,6 +3,7 @@ int main()
 {
     int a;
     int b;
+    printf("I am vaidika acharya roll no. 87\n");
     printf("Enter a");
     scanf("%d",&a);
     printf("Enter b");
