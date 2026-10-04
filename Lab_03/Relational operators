@@ -3,7 +3,7 @@ int main()
 {
     int a=20;
     int b=40;
-    printf("I am vaidika acharya roll no.87");
+    printf("I am vaidika acharya roll no.87\n");
     printf("%d\n",a>b);
     printf("%d\n",a<b);
     printf("%d\n",a>=b);
