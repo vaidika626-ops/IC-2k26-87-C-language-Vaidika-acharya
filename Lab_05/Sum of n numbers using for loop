@@ -2,6 +2,7 @@
 int main()
 {
     int n, sum=0;
+    printf("I am Vaidika acharya Roll no.87\n");
     printf("Enter a range from 0 to n: ");
     scanf("%d",&n);
     for(int i=0;i<=n;i++)
