@@ -2,6 +2,7 @@
 int main()
 {
     int n,num1=0,num2=1,nextnum;
+    printf("I am Vaidika acharya ROLL no 87\n");
     printf("Enter the number of fibbonacci series: ");
     scanf("%d",&n);
     printf("Fibbonacci series: ");
