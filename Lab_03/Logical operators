@@ -4,6 +4,7 @@ int main()
 {
     int x;
     int y;
+    printf("I am vaidika acharya roll no.87");
     printf("Enter x and y \n");
     scanf("%d",&x);
     scanf("%d",&y);
