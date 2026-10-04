@@ -5,6 +5,6 @@ int a;
 scanf("%d",a);
 return 0;
 }
-//Error in 5th line scanf me address define of a and then printf
+//Error in 5th line scanf mai address define of a and then printf
 //scanf("%d",&a);
 //printf("%d",a); use
