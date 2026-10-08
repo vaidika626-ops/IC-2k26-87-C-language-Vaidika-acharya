@@ -3,6 +3,7 @@
 int main()
 {
 int a=10;
+printf("Vaidika acharya roll no.87\n");
 printf("%d",A);
 return 0;
 }
