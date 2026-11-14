@@ -1,0 +1,35 @@
+#include<stdio.h>
+int main()
+{
+    int num1=0,num=1,nextnum,n,i,count=0;
+    printf("I am Vaidika acharya \n");
+    printf("Roll no:- 87\n");
+    printf("Enter the number of terms: ");
+    scanf("%d",&n);
+    printf("Fibbonacci series\n");
+    for(i=1;i<n;++i)
+    {
+        if(i==1)
+        {
+            nextnum=num1;
+
+        }
+        else if(i==2)
+        {
+            nextnum=num;
+        }
+        else
+        {
+            nextnum=num1+num;
+            num1=num;
+            num=nextnum;
+    }
+    printf("%d\n",nextnum);
+    if(nextnum%2==0)
+    {
+        count=count+nextnum;
+    }
+    }
+    printf("Sum of all even values=%d\n",count);
+    return 0;
+}
