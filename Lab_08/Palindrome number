@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int n,r,result=0,s;
+    printf("I am Vaidika acharya\n");
+    printf("Roll no.87\n");
+    printf("Enter a number");
+    scanf("%d",&n);
+    s=n;
+    while(n>0)
+    {
+        r=n%10;
+        result=result*10+r;
+        n=n/10;
+    }
+    printf("%d\n", result);
+    if(s==result)
+    {
+        printf("Given number is a PALINDROME NUMBER");
+    }
+    else
+    {
+        printf("Given number is not a PALINDROME NUMBER");
+    }
+    return 0;
+}
