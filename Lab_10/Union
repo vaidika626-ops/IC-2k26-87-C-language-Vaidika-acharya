@@ -1,0 +1,23 @@
+//Write a program to display the size of union and structura.
+#include<stdio.h>
+struct D{
+    int i;
+    double f;
+    char ch;
+} D;
+
+
+union Data {
+    int i;
+    double f;
+    char ch;
+} Data;
+
+int main()
+{
+    printf("My name is Vaidika acharya\n");
+    printf("Roll no:- 87\n");
+    printf("size of union: %lu bytes\n", sizeof(Data));
+    printf("size of struct: %lu bytes\n", sizeof(D));
+    return 0;
+}
