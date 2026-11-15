@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    printf("I am Vaidika acharya\n");
+    printf("Roll num:- 87\n");
+    float price[]={100.0,200.0,99.99};
+    printf("Price of first item: %.2f\n",(price[0]*18));
+    printf("Price of second item: %.2f\n", (price[1]*18));
+    printf("Price of third item: %.2f\n", (price[2]*18));
+    return 0;   
+}
