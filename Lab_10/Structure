@@ -1,0 +1,32 @@
+//Write a program to store the name, roll number  marks state and city of 1 students in a structure.
+#include<stdio.h>
+ struct Student {
+    int rollno;
+    char name[50];
+    float marks;
+    char state[50];
+    char city[50];
+} 
+Student;
+int main() {
+    printf("I am Vaidika acharya\n");
+    printf("Roll no:- 87\n");
+     struct Student s;
+    printf("Enter roll number: ");
+    scanf("%d", &s.rollno);
+    printf("Enter name: ");
+    scanf("%s", s.name);
+    printf("Enter marks: ");
+    scanf("%f", &s.marks);
+    printf("Enter state: ");
+    scanf("%s", s.state);
+    printf("Enter city: ");
+    scanf("%s", s.city);
+    printf("\nStudent Details:\n");
+    printf("Roll Number: %d\n", s.rollno);
+    printf("Name: %s\n", s.name);       
+    printf("Marks: %.2f\n", s.marks);
+    printf("State: %s\n", s.state);
+    printf("City: %s\n", s.city);
+    return 0;
+}
